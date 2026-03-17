@@ -15,3 +15,11 @@ min_value_index = np.argmin(a)
 
 # Sort the array by each row
 a_sorted = np.sort(a, axis=1)
+
+
+# Print the results
+print("Original Array:\n", a)
+print("\nTotal Sum:", total_sum)
+print("\nMaximum Value:", max_value, "with index", max_value_index)
+print("\nMinimum Value:", min_value, "with index", min_value_index)
+print("\nSorted Array by Row:\n", a_sorted)
