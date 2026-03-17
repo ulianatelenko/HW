@@ -1,0 +1,17 @@
+import numpy as np
+
+# Create a 3x3 array of random integers between 0 and 100 inclusive
+a = np.random.randint(0, 101, size=(3,3))
+
+# Calculate the total sum of all elements in the array
+total_sum = np.sum(a)
+
+# Find the maximum and minimum values in the array along with their indexes
+max_value = np.max(a)
+max_value_index = np.argmax(a)
+
+min_value = np.min(a)
+min_value_index = np.argmin(a)
+
+# Sort the array by each row
+a_sorted = np.sort(a, axis=1)
